@@ -5,3 +5,11 @@ body {
     padding: 40px 15px;
     text-align: center;
 }
+.screens {
+    height: 300px;
+    background: red;
+}
+.thumb {
+    background: green;
+    text-align: center;
+}
