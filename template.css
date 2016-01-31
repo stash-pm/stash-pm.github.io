@@ -18,7 +18,6 @@ body {
 }
 
 .thumb {
-    background: green;
     text-align: center;
 }
 
@@ -37,6 +36,17 @@ body {
     height: 50px;
     margin-bottom: 10px;
     margin-top: 10px;
+}
+
+.stash-thumb-arrow {
+    width: 100px;
+    height: 100px;
+    float:right;
+}
+.stash-thumb{
+    text-align: center;
+    width: 80px;
+    height: 80px;
 }
 
 #navbar {
