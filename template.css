@@ -12,24 +12,29 @@ body {
 }
 
 .screen {
-    border: solid black;
-    border-radius: 12px;
+    border: 1pt solid #727272;
+    border-radius: 10px;
     height: inherit;
+    overflow: hidden;
 }
 
 .thumb {
-    background: green;
     text-align: center;
 }
 
 .slack-bar {
     float: left;
-    height: 100.4%;
-    margin: -0.1% 3% -0.2% -0.1%;
+    height: 101.5%;
+    margin: -0.5% 3% -0.5% -0.5%;
+    padding:0;
+}
+
+.slack-messages {
+    margin-left:2%;
+    display: block;
 }
 
 .slack-message {
-    margin-left:2%;
 }
 
 .slack-contact-icon {
@@ -37,6 +42,18 @@ body {
     height: 50px;
     margin-bottom: 10px;
     margin-top: 10px;
+    display: inline;
+}
+
+.stash-thumb-arrow {
+    width: 100px;
+    height: 100px;
+    float:right;
+}
+.stash-thumb{
+    text-align: center;
+    width: 80px;
+    height: 80px;
 }
 
 #navbar {
