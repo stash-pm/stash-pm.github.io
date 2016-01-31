@@ -8,11 +8,13 @@ body {
 .screens {
     height: 300px;
     background: white;
+    margin-bottom: 5px;
 }
 
 .screen {
     border: solid black;
     border-radius: 12px;
+    height: inherit;
 }
 
 .thumb {
@@ -22,8 +24,8 @@ body {
 
 .slack-bar {
     float: left;
-    margin-right: 3%;
-    height: 300px;
+    height: 100.4%;
+    margin: -0.1% 3% -0.2% -0.1%;
 }
 
 .slack-message {
