@@ -16,3 +16,9 @@ body {
 #navbar {
     float: right;
 }
+
+#policeTitre{
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+}
