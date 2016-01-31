@@ -8,10 +8,13 @@ body {
 .screens {
     height: 300px;
     background: white;
-    padding:0;
+}
+
+.screen {
     border: solid black;
     border-radius: 12px;
 }
+
 .thumb {
     background: green;
     text-align: center;
@@ -20,7 +23,11 @@ body {
 .slack-bar {
     float: left;
     margin-right: 3%;
-    height: 100%;
+    height: 300px;
+}
+
+.slack-message {
+    margin-left:2%;
 }
 
 .slack-contact-icon {
