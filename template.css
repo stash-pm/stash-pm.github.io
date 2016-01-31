@@ -30,11 +30,18 @@ body {
 }
 
 .slack-messages {
-    margin-left:2%;
+    margin-left: 115px;
     display: block;
 }
 
 .slack-message {
+    display: block;
+    height: 75px;
+}
+
+.slack-text-message-hour {
+    display: inline-block;
+    margin-left: 5px;
 }
 
 .slack-contact-icon {
@@ -43,6 +50,21 @@ body {
     margin-bottom: 10px;
     margin-top: 10px;
     display: inline;
+    float: left;
+}
+
+.slack-message-text {
+    margin-left: 75px;
+    padding-top: 10px;
+}
+
+.slack-bot {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.slack-contact-name {
+    margin-bottom: 5px;
 }
 
 .stash-thumb-arrow {
@@ -103,4 +125,24 @@ body {
     font-weight: 200;
     font-size: 25px;
     color: #AFAFAF;
+}
+
+.stashed {
+    display: inline-block;
+    font-family: "Lato", sans-serif;
+    border-radius: 25px;
+    border: 2px solid #36B98F;
+    padding: 0px 22px 2px 5px;
+    background: url("./static/images/lock.png") no-repeat calc(100% - 3px) calc(50% - 1px);
+    background-size: auto 20px;
+}
+
+.unstashed {
+    display: inline-block;
+    font-family: "Lato", sans-serif;
+    border-radius: 25px;
+    border: 2px solid #36B98F;
+    padding: 0px 22px 2px 5px;
+    background: url("./static/images/lock-open.png") no-repeat calc(100% - 3px) calc(50% - 1px);
+    background-size: auto 20px;
 }
